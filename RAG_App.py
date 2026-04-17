@@ -32,7 +32,7 @@ groq_api_key = st.secrets["GROQ_API_KEY"]
 
 # ------------------ UI ------------------
 st.set_page_config(page_title="Dynamic RAG with Groq", layout="wide")
-st.image("Manx.jpg")
+st.image("HEAP_NOTES.pdf")
 st.title("Dynamic RAG with Groq, FAISS, and Llama3")
 
 # Initialize session state for vector store and chat history
